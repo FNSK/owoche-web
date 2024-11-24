@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "6c519385aaf0a2fd9628e8db15e101e5",
-"assets/AssetManifest.bin.json": "f3ba1f157aa4125a31a6cd5565d55c89",
-"assets/AssetManifest.json": "b2b02ddeaaa62c9811b67f4d0b371fc2",
+const RESOURCES = {"assets/AssetManifest.bin": "d591777723bf38645262e061a54f615f",
+"assets/AssetManifest.bin.json": "1f37762deae2763104d4bd155417a261",
+"assets/AssetManifest.json": "171c2502adc55878c74f3549484c2185",
 "assets/assets/images/discos/aedc.png": "820576d28b81fce5dcedd78db4e055ba",
 "assets/assets/images/discos/aple.png": "a202869599b544e1f2f2c12a66f603b6",
 "assets/assets/images/discos/bedc.png": "817ada4b6c9e7e60545fdb774c0a9d42",
@@ -22,6 +22,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "6c519385aaf0a2fd9628e8db15e101e5
 "assets/assets/images/operators/airtel.png": "a6d408dcb09022415453b8d500c194a8",
 "assets/assets/images/operators/glo.png": "38dcebac562ff0a91610e3d260a45f06",
 "assets/assets/images/operators/mtn.png": "ed289b515df8d3471d0f1c2241f60f35",
+"assets/assets/images/tv/dstv.png": "b083912654213ff84bb00a2a730e419a",
+"assets/assets/images/tv/gotv.png": "4a4425a43aa4eb96ee1da7b7a71cd669",
+"assets/assets/images/tv/startimes.png": "ab80330011da006930cbd2e27ab28885",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "e76a99ce4b4ef22aea8c5fe299ff48ea",
 "assets/NOTICES": "fec1556bb906ccf4c60781238f403133",
@@ -39,14 +42,14 @@ const RESOURCES = {"assets/AssetManifest.bin": "6c519385aaf0a2fd9628e8db15e101e5
 "canvaskit/skwasm.worker.js": "89990e8c92bcb123999aa81f7e203b1c",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "f393d3c16b631f36852323de8e583132",
-"flutter_bootstrap.js": "b1fbda9b07195456d18c8fd679597216",
+"flutter_bootstrap.js": "1f7d58a16984b64123cfb4457d837b67",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "index.html": "9f958814e7e66272f89bf4576c7f6bc8",
 "/": "9f958814e7e66272f89bf4576c7f6bc8",
-"main.dart.js": "1fb3f2dc8d1a1369ea96aa6bfd7b1966",
+"main.dart.js": "987ede6385882e4efb3d1c5cd83b07ff",
 "manifest.json": "0030ff64be1c3181710c3014b11018a8",
 "version.json": "2b521e10dfa0f067561de489a19d6620"};
 // The application shell files that are downloaded before a service worker can
