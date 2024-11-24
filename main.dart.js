@@ -81051,7 +81051,7 @@ if(p.r)s.push(B.U7)
 s.push(B.b0)
 h=A.b([A.hp(o,A.dh(s,B.I,B.N,B.O),B.v,o,o,o,o,o,B.E0,o),B.O5],r)
 if(k){g=p.x
-s=A.afF(A.a2W(new A.Am(j.a.a<600?4:8,8,8,2.5),new A.afZ(p),8,B.t1,!0),B.a5,g)
+s=A.afF(A.a2W(new A.Am(j.a.a<=900?3:8,8,8,2.5),new A.afZ(p),8,B.t1,!0),B.a5,g)
 q=p.e
 g=A.afF(A.hU(q,B.Fq,B.cO,o,!1,new A.ag_(p)),B.ah,g)
 j=q.a.a
