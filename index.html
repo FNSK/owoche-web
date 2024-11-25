@@ -1,38 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
   <base href="/owoche-web/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="description" content="Airtime, Data, TV and Electrcity. Topup and bill payment in Nigeria wit split payment">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="frontend">
+  <meta name="apple-mobile-web-app-title" content="Owoche">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>frontend</title>
+  <title>Owoche</title>
   <link rel="manifest" href="manifest.json">
+  <style>
+    body {
+      margin: 0;
+      background-color: #2196f3; /* Splash screen background */
+      color: white;
+      font-family: Arial, sans-serif;
+      height: 100vh;
+      overflow: hidden; /* Prevent scrolling */
+    }
+    #loader {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100%; /* Center content within the viewport */
+    }
+    .spinner {
+      margin-top: 20px;
+      border: 4px solid rgba(255, 255, 255, 0.3);
+      border-top: 4px solid white;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
 </head>
 <body>
+  <div id="loader">
+    <h1>Owoche</h1>
+    <div class="spinner"></div>
+  </div>
+  <script>
+    // Remove loader styles after Flutter initializes
+    window.addEventListener("flutter-first-frame", function () {
+      document.getElementById('loader').style.display = 'none';
+      document.body.style.backgroundColor = 'white'; /* Reset body background */
+    });
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
